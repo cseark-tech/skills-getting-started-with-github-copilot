@@ -63,6 +63,7 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .activity-card h4 {
@@ -72,6 +73,36 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background: #eef3fa;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #1a237e;
+  font-size: 15px;
+}
+
+.participants-section ul {
+  margin: 8px 0 0 18px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.participants-section li {
+  margin-bottom: 3px;
+  color: #333;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.participants-section span {
+  color: #888;
+  font-size: 14px;
 }
 
 .form-group {
